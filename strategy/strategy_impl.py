@@ -20,6 +20,7 @@ class ShippingStrategy:
     @abstractmethod
     def calculate(self, order):
         """Calculate shipping cost based on an order."""
+        pass
 
 
 class FedExShippingStrategy(ShippingStrategy):
